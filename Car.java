@@ -16,8 +16,6 @@ public class Car {
         this.price = price;
         this.registrationNumber = registrationNumber;
     }
-
-    // Геттеры и сеттеры
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
 
