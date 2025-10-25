@@ -14,7 +14,6 @@ public class Main {
         Car[] oldToyotas = getCarByBrendAndYearOperational(cars, "Toyota", 4);
         System.out.println("Toyota старше 4 лет: " + oldToyotas.length);
     }
-
     public static Car[] getCarByBrend(Car[] cars, String brand) {
         if (cars == null || brand == null) {
             return new Car[0];
